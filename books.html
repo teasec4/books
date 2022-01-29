@@ -67,28 +67,121 @@
     </div>
 </nav>
 
-<div class="container2">
+<div class="container3">
 </div>
 
 <div class="container">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Дом</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Книги</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="container mt-3">
     <h1 class="text-sec">Книжная полка</h1>
 </div>
 <div class="container mt-5">
 
-    <div class="d-flex bd-highlight align-items-center border-top border-bottom border-my1">
-        <div class="p-2 flex-grow-1 bd-highlight">
-            <p class="fs-2">Алиса в Стране чудес</p>
-            <small class="lead">Льюис Кэрролл</small>
-        </div>
+    <div>
+        <div class="d-flex bd-highlight align-items-center border-top border-bottom border-my1">
+            <div class="p-2 flex-grow-1 bd-highlight">
+                <a class="btn" href="#">
+                    <p class="fs-2">Алиса в Стране чудес</p>
+                    <small class="lead"><em>Льюис Кэрролл</em></small>
+                </a>
 
-        <div class="p-2 bd-highlight border-start border-dark">
-            <a class="btn btn-outline-my1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-ear" viewBox="0 0 16 16">
-                    <path d="M8.5 1A4.5 4.5 0 0 0 4 5.5v7.047a2.453 2.453 0 0 0 4.75.861l.512-1.363a5.553 5.553 0 0 1 .816-1.46l2.008-2.581A4.34 4.34 0 0 0 8.66 1H8.5ZM3 5.5A5.5 5.5 0 0 1 8.5 0h.16a5.34 5.34 0 0 1 4.215 8.618l-2.008 2.581a4.555 4.555 0 0 0-.67 1.197l-.51 1.363A3.453 3.453 0 0 1 3 12.547V5.5ZM8.5 4A1.5 1.5 0 0 0 7 5.5v2.695c.112-.06.223-.123.332-.192.327-.208.577-.44.72-.727a.5.5 0 1 1 .895.448c-.256.513-.673.865-1.079 1.123A8.538 8.538 0 0 1 7 9.313V11.5a.5.5 0 0 1-1 0v-6a2.5 2.5 0 0 1 5 0V6a.5.5 0 0 1-1 0v-.5A1.5 1.5 0 0 0 8.5 4Z"/>
-                </svg>
-            </a>
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a class="btn btn-outline-my1" data-bs-toggle="collapse" href="#text" role="button"
+                   aria-expanded="false" aria-controls="text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        <div class="collapse " id="text">
+            <div class="row row-cols-md-auto g-1 align-items-center m-auto">
+                <div class="col-sm-auto rounded bg-body2">
+                    <a href="#"
+                       class="list-group-item list-group-item-action bg-body2 border-dark" aria-current="true">
+
+                        <h5 class="mb-1">Глава 1</h5>
+
+                        <p class="mb-1">Вниз по кролечьей норе</p>
+                        <small><em>4 мин</em></small>
+                    </a>
+                </div>
+                <div class="col-sm-auto rounded">
+                    <a href="#"
+                       class="list-group-item list-group-item-action bg-body2 border-dark" aria-current="true">
+
+                        <h5 class="mb-1">Глава 2</h5>
+
+
+                        <p class="mb-1">Море слез</p>
+                        <small><em>2 мин</em></small>
+                    </a>
+                </div>
+
+
+            </div>
         </div>
     </div>
+
+    <div class="mt-5">
+        <div class="d-flex bd-highlight align-items-center border-top border-bottom border-my1">
+            <div class="p-2 flex-grow-1 bd-highlight">
+                <a class="btn" href="#">
+                    <p class="fs-2">Трое в лодке не считая собаки</p>
+                    <small class="lead"><em>Джером К Джером</em></small>
+                </a>
+
+            </div>
+
+            <div class="p-2 bd-highlight">
+                <a class="btn btn-outline-my1" data-bs-toggle="collapse" href="#text2" role="button"
+                   aria-expanded="false" aria-controls="text2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+        <div class="collapse " id="text2">
+            <div class="row row-cols-md-auto g-1 align-items-center m-auto">
+                <div class="col-sm-auto rounded bg-body2">
+                    <a href="#"
+                       class="list-group-item list-group-item-action bg-body2 border-dark" aria-current="true">
+
+                        <h5 class="mb-1">Глава 1</h5>
+
+                        <p class="mb-1">Вниз по кролечьей норе</p>
+                        <small><em>4 мин</em></small>
+                    </a>
+                </div>
+                <div class="col-sm-auto rounded">
+                    <a href="#"
+                       class="list-group-item list-group-item-action bg-body2 border-dark" aria-current="true">
+
+                        <h5 class="mb-1">Глава 2</h5>
+
+
+                        <p class="mb-1">Море слез</p>
+                        <small><em>2 мин</em></small>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
 
 </div>
 
