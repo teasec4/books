@@ -16,8 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 </head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<body class="">
+<nav class="navbar navbar-expand-lg navbar-dark bg-nav">
     <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
@@ -57,7 +57,7 @@
             </ul>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
-                <button class="btn btn-outline-my1" type="submit">Поиск</button>
+                <button class="btn btn-outline-warning" type="submit">Поиск</button>
             </form>
         </div>
     </div>
@@ -75,9 +75,9 @@
     </nav>
 </div>
 <div class="text-center mt-5">
-    <h1>Алиса в Стране чудес</h1>
+    <h1 class="">Алиса в Стране чудес</h1>
 </div>
-<div class="container mt-5 shadow p-3 rounded">
+<div class="container mt-5 p-3 rounded bg-body">
     <h3>
         Перевод Н. М. Демуровой
     </h3>
@@ -99,7 +99,7 @@
     <div class="row row-cols-md-auto g-1 align-items-center m-auto">
         <div class="col-sm-auto rounded">
             <a href="../alisa/g1.html"
-               class="list-group-item list-group-item-action border-dark" aria-current="true">
+               class="list-group-item list-group-item-action bg-warning" aria-current="true">
 
                 <h5 class="mb-1">Глава 1</h5>
 
@@ -109,7 +109,7 @@
         </div>
         <div class="col-sm-auto rounded">
             <a href="#"
-               class="list-group-item list-group-item-action  border-dark" aria-current="true">
+               class="list-group-item list-group-item-action bg-warning" aria-current="true">
 
                 <h5 class="mb-1">Глава 2</h5>
 
@@ -123,14 +123,23 @@
 
 </div>
 
-<div class="container mt-5 text-center">
-    <a class="btn btn-my1"  href="g1.html">
-        Читать
-    </a>
-    <a class="btn btn-my1" href="g1.html">
-        Слушать
-    </a>
+<div class="container text-center">
+    <div class="btn-group mt-5 bg-nav p-2 rounded">
+        <a class="btn btn-outline-warning"  href="g1.html">
+            Читать
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+            </svg>
+        </a>
+        <a class="btn btn-outline-warning" href="g1.html">
+            Слушать
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-earbuds" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.432 4.432 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.548.548 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563-.43.112-.561.994-.292 1.969.269.975.836 1.675 1.266 1.563zm3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.434 4.434 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948zm.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563.43.112.561.994.292 1.969-.269.975-.836 1.675-1.266 1.563z"/>
+            </svg>
+        </a>
+    </div>
 </div>
+
 
 <div class="container mt-5">
     <footer class="py-3 my-4">
