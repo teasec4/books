@@ -1,0 +1,29 @@
+.container2 {
+    margin-top: 4em;
+}
+
+@media (min-width: 1000px)  {
+    .container2 {
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 830px) and (min-width: 620px) {
+    .container2 {
+        margin-top: 5em;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 0px){
+    .container2 {
+        margin: 4em 0;
+    }
+}
+
+.text-sec{
+    font-family: 'Neucha', cursive;
+}
+
+.text-header{
+    font-family: 'Ruslan Display', cursive;
+}
