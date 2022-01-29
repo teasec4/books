@@ -49,3 +49,22 @@
         margin-top: 1em;
     }
 }
+
+.lyrics {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+    line-height: 1.3;
+}
+
+.lyrics p {
+    white-space: pre;
+}
+
+.centered {
+    text-align: center;
+}
+
+.redHelp p{
+    text-indent: 25px;
+}
