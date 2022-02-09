@@ -16,9 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 </head>
-<body class="bg-body2">
+<body class="bg-body3">
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-journal-bookmark-fill" viewBox="0 0 16 16">
@@ -40,10 +40,18 @@
                         Дом
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="books.html">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="books.html">
                         Книги
                     </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li>
+                            <a class="dropdown-item" href="#">Авторы</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Жанры</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -76,9 +84,29 @@
     </nav>
 </div>
 
-<div class="container mt-3">
-    <h1 class="text-sec">Книжная полка</h1>
+
+
+<div class="container mt-5 mb-5">
+    <div class="row row-cols-3 justify-content-center">
+        <div class="col-5">
+            <p class="fs-4">Какую книгу вы ищите?</p>
+
+        </div>
+        <div class="col-5">
+            <input type="text" class="form-control" placeholder="Имя автора или название книги" aria-label="Имя пользователя">
+        </div>
+        <div class="col-2">
+            <button class="btn btn-outline-my1" type="submit">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </button>
+        </div>
+
+    </div>
 </div>
+
 
 
 <div class="container mt-5">
@@ -111,7 +139,7 @@
         <div class="collapse " id="text">
             <div class="row row-cols-md-auto g-1 align-items-center m-auto">
                 <div class="col-sm-auto rounded">
-                    <a href="../alisa/g1.html"
+                    <a href="alisa/g1.html"
                        class="list-group-item list-group-item-action bg-warning" aria-current="true">
 
                         <h5 class="mb-1">Глава 1</h5>
